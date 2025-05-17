@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Page</title>
+  <style>
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image:url('background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #2c3e50;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #bdc3c7;
+    }
+
+    .profile-container {
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .profile-header {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .profile-header h1 {
+      margin: 10px 0 5px;
+    }
+
+    .profile-header p {
+      font-style: italic;
+      color: #bdc3c7;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      object-fit: cover;
+      margin-top: 0px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .profile-body {
+      padding: 30px 20px;
+    }
+
+    .profile-body h2 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .profile-body p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .info-section {
+      margin-bottom: 20px;
+    }
+
+    .info-section h3 {
+      color: #34495e;
+      margin-bottom: 5px;
+    }
+
+    .edit-button {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .edit-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="home.html">Home</a> |
+    <a href="profile.html">Profile/Skills</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="contact_us.html">Contact</a>
+  </nav>
+
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="pfp.png" alt="Profile Picture" class="profile-img">
+      <h1>Clarice Nzeadibe</h1>
+      <p>Student</p>
+    </div>
+
+    <div class="profile-body">
+      <div class="info-section">
+        <h3>Email</h3>
+        <p>clarice.nzeadibe@gmail.com</p>
+      </div>
+      <div class="info-section">
+        <h3>Location</h3>
+        <p>Lagos</p>
+      </div>
+      <div class="info-section">
+        <h3>Bio</h3>
+        <p>Clarice is an 18-year-old aspiring web developer with a strong passion for coding and designing modern, user-friendly websites. Her journey into the tech world began in her early teens, and she has since dedicated countless hours to honing her skills in HTML, CSS, JavaScript, and front-end frameworks. Clarice has already built impressive website replicas and projects that reflect both her technical ability and eye for design. Some of her standout creations include functional recreations of the Spotify and Pinterest websites, where she focused on responsive design, smooth user interactions, and creative layouts. She also developed a full-scale version of the Pan-Atlantic University website, showcasing her ability to work on real-world web design challenges and structure content for institutional use. With a growing portfolio and a drive to keep learning, Clarice is set on a path to becoming a leading figure in the digital development space.</p>
+      </div>
+      <a href="#" class="edit-button">Edit Profile</a>
+    </div>
+  </div>
+
+</body>
+</html>
